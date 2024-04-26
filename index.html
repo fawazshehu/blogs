@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loruloru blog</title>
+    <link rel="stylesheet" href="waz.css">
+    <script type="module" defer src="waz.js"></script>
+</head>
+<body>
+   <div class="loruContainer">
+      <header class="wazHeader">
+         <nav class="nav">
+            <div class="logo">LoruLoru</div>
+            <ul class="wazNav">
+               <li class="navList"><a class="nav--link" href="">Trend</a></li>
+               <li class="navList"><a class="nav--link" href="">My-Blogs</a></li>
+               <li class="navList"><a class="nav--link" href="">All-Blogs</a></li>
+               <li class="navList"><a class="nav--link" href="">Contact</a></li>
+               <li class="navList"><a class="nav--link" href="">About</a></li>
+            </ul>
+            <form action="" class="form">
+               <button class="btn signIn">Sign In</button>
+               <button class="btn signUp">Create New Account</button>
+            </form>
+         </nav>
+         <div class="grido">
+            <div class="left">
+               <div class="wrap">
+                  <h2>Welcome to LoruLoru Blog</h2>
+                  <p class="motto">where sleep is forbidden</p>
+                  <p>Get the latest gist and update in town here </p>
+               </div>
+            </div>
+            <div class="right">
+               <img class="img" src="/loruloru img.jpg" alt="lorulorublog">
+            </div>
+         </div>
+      </header>
+   </div>
+      <!-- <div class="containers">
+         <form action="" class="form-page">
+            <div class="display-div">
+               <h2>INFORMATION</h2>
+               <p>My nickname is username</p>
+               <p>My email is email</p>
+               <p>My gender is gender</p>
+               <p>I love to gym at E-Phoenix</p>
+            </div>
+         </form>
+      </div> -->
+   <div class="modal modal-signUp hidden">
+      <form class="form-page" action="">
+         <div class="gridy gender">
+            <label class="label" for="">GENDER</label >
+               <select class="input selected" name="" id="">
+                  <option value="male">guy</option>
+                  <option value="female">lady</option>
+               </select>
+            </div>
+            <div class="gridy">
+               <label class="label" for="">USERNAME</label>
+               <input class="input user" type="text" placeholder="Username">
+            </div>        
+            <div class="gridy">
+               <label class="label" for="">EMAIL</label >
+               <input class="input mail" type="email" placeholder="Email address">
+            </div>
+            <div class="gridy boy ">
+               <label class="label guy" for="">gym</label >
+               <input class="input gym" type="text" placeholder="Enter gym">
+            </div>
+            <div class="gridy girl hidden">
+               <label class="label lady" for="">spa</label >
+               <input class="input spa " type="text" placeholder="Enter ">
+            </div>
+            <div class="login">
+               <button class="log-in submit-signUP">Create account</button>
+            </div>
+      </form>
+      <button class="exitModal">&times;</button>
+   </div>
+   <div class="modal modal-login hidden">
+      <form class="form-page" action="">
+            <div class="gridy">
+               <label class="label" for="">USERNAME</label>
+               <input class="input user" type="text" placeholder="Username">
+            </div>        
+            <div class="gridy">
+               <label class="label" for="">EMAIL</label >
+               <input class="input mail" type="email" placeholder="Email address">
+            </div>
+            <div class="login">
+               <button class="log-in submit-logIn">Log In</button>
+            </div>
+      </form>
+      <button class="exitModal">&times;</button>
+   </div>
+   <div class="overlay hidden"></div>
+</body>
+</html>

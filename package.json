@@ -1,0 +1,19 @@
+{
+  "name": "loruloru",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel index.html"
+  },
+  "author": "fawaz",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "dependencies": {
+    "core-js": "^3.37.0"
+  }
+}
